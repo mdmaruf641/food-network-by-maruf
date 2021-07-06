@@ -1,0 +1,64 @@
+/*=====COMMON DESIGN=====*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*========================*/
+
+/*=====NAVVIGATION PART START*/
+
+
+#nav {
+    background-color: #33adf1;
+    height: 55px;
+}
+#nav .nav-bar{
+    display: flex;
+}
+
+#nav .nav-bar .logo{
+    width: 20%;
+    margin-top: 14px;
+}
+
+#nav .nav-bar .logo a {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#nav .nav-bar .logo a span{
+    color: red;
+}
+
+#nav .nav-bar .menu {
+    width: 80%;
+    text-align: end;
+}
+
+#nav .nav-bar .menu li {
+    display: inline-block;
+    padding: 0 13px;
+}
+
+#nav .nav-bar .menu li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*=====NAVVIGATION PART END=====*/
