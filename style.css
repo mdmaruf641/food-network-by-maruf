@@ -71,6 +71,7 @@ li {
 
 #banner .banner-content {
     display: flex;
+    padding-bottom: 50px;
 }
 
 #banner .banner-text {
@@ -117,3 +118,59 @@ li {
 }
 
 /*=====BANNER SECTION END=====*/
+
+/*=====ABOUT SECTION START=====*/
+
+#about {
+    background-image: url(images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#about .about-content {
+    display: flex;
+}
+
+#about .about-content .about-img {
+    padding-top: 55px;
+    width: 50%;
+    text-align: center;
+}
+
+#about .about-content .about-img img {
+    width: 35%;
+    margin-bottom: -5px;
+}
+
+#about .about-content .about-text {
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.about-text h1 {
+    font-size: 32px;
+    color: #444;
+}
+
+.about-text p {
+    padding-top: 10px;
+    color: #222;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.about-text a {
+    background-image: linear-gradient(to left, #a5d4ee, #0388f6);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 23px;
+}
+
+
+/*=====ABOUT SECTION END=====*/
