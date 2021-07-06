@@ -264,19 +264,96 @@ li {
     font-size: 20px;
     color: #333;
 }
+
 /*=====COUNT DOWN SECTION END=====*/
 
 
+/*=====CONTACT SECTION ADDED=====*/
 
+
+#contact {
+    background-image: url(images/contact-bg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+    padding-bottom: 90px;
+}
+
+
+#contact .contact-heading {
+    text-align: center;
+}
+
+.contact-heading h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.contact-heading p {
+    font-size: 20px;
+    padding-top: 5px;
+    color: #222;
+}
+
+.contact-item {
+    margin-top: 50px;
+    width: 35%;
+    box-shadow: -1px 2px 18px #d4d4d4;
+    padding: 45px 43px;
+}
+
+
+.contact-item h4 {
+    font: 23px;
+    color: #333;
+}
+
+
+form input {
+    width: 96%;
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+form textarea {
+    width: 97%;
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+.contact-btn {
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    background-image: linear-gradient(to left, #a5d4ee, #0388f6);
+    border-radius: 20px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: -2px 2px 17px #93d5f9;
+}
+
+
+
+
+/*=====CONTACT SECTION END=====*/
 
 
 
 
 /*=====FOOTER SECTION START=====*/
-#footer{
+#footer {
     background-color: #0B0E17;
 }
-#footer .footer-content{
+
+#footer .footer-content {
     padding-top: 30px;
     padding-bottom: 100px;
     text-align: center;
@@ -297,4 +374,6 @@ li {
     font-size: 20px;
     padding-top: 10px;
 }
+
+
 /*=====FOOTER SECTION END=====*/
